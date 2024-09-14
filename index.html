@@ -34,6 +34,11 @@
         grayColor.addEventListener('click', () => {
             document.body.style.backgroundColor = 'gray'
         })
+
+
+        document.addEventListener('contextmenu', (e) => {
+            e.preventDefault(e)
+        }, false)
     </script>
 </body>
 </html>
