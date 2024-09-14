@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="red">Change Bg Red</button>
+    <button id="yellow">yellow</button>
+    <button id="green">Green</button>
+    <button id="black">Black</button>
+    <button id="gray">Gray</button>
+
+    <script>
+        const redColor = document.getElementById('red')
+        const yellowColor = document.getElementById('yellow')
+        const greenColor = document.getElementById('green')
+        const blackColor = document.getElementById('black')
+        const grayColor = document.getElementById('gray')
+
+        redColor.addEventListener('click', () => {
+            document.body.style.backgroundColor = 'red'
+        })
+        yellowColor.addEventListener('click', () => {
+            document.body.style.backgroundColor = 'yellow'
+        })
+        greenColor.addEventListener('click', () => {
+            document.body.style.backgroundColor = 'green'
+        })
+        blackColor.addEventListener('click', () => {
+            document.body.style.backgroundColor = 'black'
+        })
+        grayColor.addEventListener('click', () => {
+            document.body.style.backgroundColor = 'gray'
+        })
+    </script>
+</body>
+</html>
